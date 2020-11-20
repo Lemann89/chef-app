@@ -12,6 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/RecipesScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/RecipesScreenContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +31,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1kW2VxLRvdpLEX6TXbzyxSzcbgL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,8 +50,45 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="D:\Pet Projects\chef-app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pet Projects\chef-app\app\components" />
+      <recent name="D:\Pet Projects\chef-app\app\screens" />
+      <recent name="D:\Pet Projects\chef-app" />
+      <recent name="D:\Pet Projects\chef-app\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="web" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="web" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.web" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +98,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605802055233</updated>
-      <workItem from="1605802056465" duration="2833000" />
+      <workItem from="1605802056465" duration="5281000" />
+      <workItem from="1605810463697" duration="47000" />
+      <workItem from="1605810523259" duration="124000" />
+      <workItem from="1605810663655" duration="102000" />
+      <workItem from="1605810781608" duration="22136000" />
     </task>
     <servers />
   </component>
@@ -59,5 +119,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="243" key="GridCell.Tab.0.bottom" timestamp="1605833189507">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
+    <state width="1899" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189507" />
+    <state width="1899" height="243" key="GridCell.Tab.0.center" timestamp="1605833189506">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
+    <state width="1899" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
+    <state width="1899" height="243" key="GridCell.Tab.0.left" timestamp="1605833189506">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
+    <state width="1899" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
+    <state width="1899" height="243" key="GridCell.Tab.0.right" timestamp="1605833189506">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
+    <state width="1899" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
+    <state x="423" y="151" key="SettingsEditor" timestamp="1605812270529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="423" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605812270529" />
   </component>
 </project>

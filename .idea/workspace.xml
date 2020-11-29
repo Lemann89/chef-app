@@ -10,20 +10,44 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/RecipesScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/RecipesScreenContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="create navigation and recipes screen">
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/dishes.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/ingredients.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/products.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/recipes.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/warehouse.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/dish.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/ingredient.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/ingredientType.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/product.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/recipe.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/models/warehouse.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/DishCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/IngredientRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ProductCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/VirtualizedView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/navigators/WarehouseNavigator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/AnalyticsScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/CartScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/MenuFormScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/OrderScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/ProductScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/SuccessScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/WarehouseScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/RecipesScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/RecipesScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/RecipesScreenContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/RecipesNavigator.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="D:\Pet Projects\chef-app\node_modules\typescript\lib" />
@@ -56,10 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Pet Projects\chef-app\app\components" />
       <recent name="D:\Pet Projects\chef-app\app\screens" />
+      <recent name="D:\Pet Projects\chef-app\app\screens\Warehouse" />
+      <recent name="D:\Pet Projects\chef-app\app\navigators" />
+      <recent name="D:\Pet Projects\chef-app\app\components" />
       <recent name="D:\Pet Projects\chef-app" />
-      <recent name="D:\Pet Projects\chef-app\app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -102,8 +128,19 @@
       <workItem from="1605810463697" duration="47000" />
       <workItem from="1605810523259" duration="124000" />
       <workItem from="1605810663655" duration="102000" />
-      <workItem from="1605810781608" duration="22136000" />
+      <workItem from="1605810781608" duration="22313000" />
+      <workItem from="1605893546885" duration="4990000" />
+      <workItem from="1605989343604" duration="6400000" />
+      <workItem from="1606570271235" duration="24432000" />
     </task>
+    <task id="LOCAL-00001" summary="create navigation and recipes screen">
+      <created>1605836148048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605836148048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,30 +158,54 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create navigation and recipes screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="create navigation and recipes screen" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="243" key="GridCell.Tab.0.bottom" timestamp="1605833189507">
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606610779761">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606610779761" />
+    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1605911228602">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605911228602" />
+    <state width="1899" height="71" key="GridCell.Tab.0.bottom" timestamp="1606610780089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
-    <state width="1899" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189507" />
-    <state width="1899" height="243" key="GridCell.Tab.0.center" timestamp="1605833189506">
+    <state width="1899" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606610780089" />
+    <state width="1899" height="71" key="GridCell.Tab.0.center" timestamp="1606610780089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
-    <state width="1899" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
-    <state width="1899" height="243" key="GridCell.Tab.0.left" timestamp="1605833189506">
+    <state width="1899" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606610780089" />
+    <state width="1899" height="71" key="GridCell.Tab.0.left" timestamp="1606610780089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
-    <state width="1899" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
-    <state width="1899" height="243" key="GridCell.Tab.0.right" timestamp="1605833189506">
+    <state width="1899" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606610780089" />
+    <state width="1899" height="71" key="GridCell.Tab.0.right" timestamp="1606610780089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605818619684" />
-    <state width="1899" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605833189506" />
+    <state width="1899" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606610780089" />
     <state x="423" y="151" key="SettingsEditor" timestamp="1605812270529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="423" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605812270529" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605836153459">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605836153459" />
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606581310303">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606581310303" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1606581336426">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606581336426" />
   </component>
 </project>

@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {RecipesScreen} from "./RecipesScreen";
-import {RecipeScreen} from "./RecipeScreen";
+import {RecipesScreen} from "../screens/RecipesScreen";
+import {RecipeScreen} from "../screens/RecipeScreen";
 
 const Stack = createStackNavigator();
 
-export const RecipesScreenContainer = () => {
+export const RecipesNavigator = () => {
     return (
         <>
             <Stack.Navigator initialRouteName="Recipes">

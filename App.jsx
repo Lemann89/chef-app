@@ -6,11 +6,11 @@ import {Navigation} from "./app/components/Navigation";
 export default function App() {
     return (
         <>
-            <NavigationContainer>
-                <SafeAreaView style={styles.container}>
-                    <Navigation/>
-                </SafeAreaView>
-            </NavigationContainer>
+                <NavigationContainer>
+                    <SafeAreaView style={styles.container}>
+                        <Navigation/>
+                    </SafeAreaView>
+                </NavigationContainer>
         </>
     );
 };

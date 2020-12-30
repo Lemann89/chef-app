@@ -9,6 +9,7 @@ import AnalyticsScreen from "../screens/AnalyticsScreen";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import {WarehouseNavigator} from "../navigators/WarehouseNavigator";
+import {HomeNavigator} from "../navigators/HomeNavigator";
 
 
 const Tab = createBottomTabNavigator();
@@ -31,7 +32,7 @@ export const Navigation = () => {
             >
                 <Tab.Screen
                     name="Home"
-                    component={HomeScreen}
+                    component={HomeNavigator}
                     options={{
                         tabBarIcon: ({color}) => (
                             <FontAwesome name="home" color={color} size={26}/>

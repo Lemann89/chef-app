@@ -6,8 +6,8 @@ const IngredientRow = props => {
     return (
         <>
             <DataTable.Row>
-                <DataTable.Cell>{item.quantity} {item.ingredient_type?.storage_type}</DataTable.Cell>
-                <DataTable.Cell numeric>{item.product.name}</DataTable.Cell>
+                <DataTable.Cell>{item.ingredients_quantity} {item.storage_type}</DataTable.Cell>
+                <DataTable.Cell numeric>{item.name}</DataTable.Cell>
             </DataTable.Row>
         </>
     );

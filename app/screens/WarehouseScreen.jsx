@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import {Button, Text} from "react-native-paper";
 import axios from "axios";
 import environment from "../../environment";
 import {FlatList} from "react-native";
-import DishCard from "../components/DishCard";
 import ProductCard from "../components/ProductCard";
+import {useFocusEffect} from "@react-navigation/core";
 
 const WarehouseScreen = (props) => {
 
@@ -17,9 +16,15 @@ const WarehouseScreen = (props) => {
             .then(res => setProducts(res));
     }
 
+    useFocusEffect(
+        React.useCallback(() => {
+            getProducts();
+        }, [])
+    );
+
     useEffect(() => {
         getProducts();
-    }, [])
+    },[])
 
     return (
         <>

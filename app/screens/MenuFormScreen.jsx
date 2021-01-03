@@ -45,7 +45,7 @@ const MenuFormScreen = props => {
             date: date
         }
         menu.push(dish);
-        return menu
+        return menu;
     }
 
     const onDismissSnackbar = () => setVisibleSnackbar(false);
@@ -69,7 +69,7 @@ const MenuFormScreen = props => {
     useEffect(() => {
         axios.get(`${environment.BaseURL}/dishes`)
             .then(res => setDishes(res.data));
-    }, [])
+    }, []);
 
     return (
         <>

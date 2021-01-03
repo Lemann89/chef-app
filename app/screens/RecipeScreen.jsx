@@ -35,8 +35,14 @@ export const RecipeScreen = (props) => {
             </Card>
             <View style={styles.container}>
                 <Title style={styles.title}>{dish.name}</Title>
-                <Text style={styles.subheading}>Цена :</Text>
-                <Text style={styles.text}>{dishParams.price} грн.</Text>
+                <View style={styles.row}>
+                    <Text style={styles.subheading}>Цена : </Text>
+                    <Text style={styles.text}>{dishParams.price} грн</Text>
+                </View>
+                <View style={styles.row}>
+                    <Text style={styles.subheading}>Кол-во порций : </Text>
+                    <Text style={styles.text}>{dish.recipe?.portions}</Text>
+                </View>
                 <Text style={styles.subheading}>Ингредиенты :</Text>
                 <DataTable style={styles.table}>
                     <FlatList
@@ -73,18 +79,23 @@ const styles = StyleSheet.create({
     title: {
         paddingTop: 15,
         fontSize: 21,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
     subheading: {
-        paddingTop: 15,
+        paddingTop: 12,
         fontSize: 18,
         fontWeight: 'bold'
     },
     text: {
-        paddingTop: 10,
+        paddingTop: 14,
         fontSize: 16
     },
     tableLeft: {
         paddingLeft: 50
     },
+    row: {
+        height: 40,
+        alignItems: "center",
+        flexDirection: "row"
+    }
 })

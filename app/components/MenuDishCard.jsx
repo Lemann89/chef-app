@@ -1,32 +1,36 @@
-import React, {useEffect, useState} from 'react';
-import {Button, Text, TextInput, Appbar, Avatar, TouchableRipple} from "react-native-paper";
-import {View, StyleSheet, TouchableOpacity} from "react-native";
+import React from 'react';
+import {Button, Text, Avatar, TouchableRipple} from "react-native-paper";
+import {View, StyleSheet } from "react-native";
 import axios from "axios";
 import environment from "../../environment";
 
 const MenuDishCard = props => {
 
-    const {item, navigation} = props
+    const {item, navigation, updateDishes} = props
+
+    const onDoneHandler = (menuId) => {
+        axios.put(`${environment.BaseURL}/menu/${menuId}/status`).then(() => {
+            updateDishes()
+        });
+    }
 
     return (
-
         <View style={styles.container}>
             <TouchableRipple onPress={() => {
                 navigation.navigate('MenuDish', item.id);
-            }} rippleColor="rgba(0, 0, 0, 0.1)"
+            }} rippleColor="rgba(0, 0, 0, 0)"
             >
                 <View style={styles.content}>
-                    <Avatar.Image style={styles.image} size={60} source={{uri: item.dish.imageURL}}/>
+                    <Avatar.Image style={styles.image} size={60} source={{uri: item.imageURL}}/>
                     <View style={styles.contentText}>
                         <Text style={styles.title}>
-                            {item.dish.name}
+                            {item.name}
                         </Text>
                         <Text style={styles.subtitle}>
                             {item.portion_quantity} порций, {item.date}
                         </Text>
                     </View>
                 </View>
-
             </TouchableRipple>
 
             <View style={styles.action}>
@@ -34,12 +38,14 @@ const MenuDishCard = props => {
                     style={styles.button}
                     mode="contained"
                     color="#007DFB"
+                    onPress={() => {
+                        onDoneHandler(item.id)
+                    }}
                 >
                     Готово
                 </Button>
             </View>
         </View>
-
     );
 };
 
@@ -73,9 +79,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         height: 70
-    },
-    action: {
-
     },
     contentText: {
         paddingLeft: 15,

@@ -28,7 +28,7 @@ const ProductScreen = props => {
             <View style={styles.container}>
                 <Title style={styles.title}>{product.product?.name}</Title>
                 <Text style={styles.subheading}>Кол-во на складе :</Text>
-                <Text style={styles.text}>{product.quantity} кг/литров/штук</Text>
+                <Text style={styles.text}>{Math.floor(product.quantity * 100) / 100} кг</Text>
                 <Text style={styles.subheading}>Цена :</Text>
                 <Text style={styles.text}>{product.product?.price} грн/кг</Text>
                 <Text style={styles.subheading}>Пищевая ценность :</Text>

@@ -4,7 +4,6 @@ import axios from "axios";
 import environment from "../../environment";
 import VirtualizedView from "../components/VirtualizedView";
 import {Card, DataTable, Paragraph, Title} from "react-native-paper";
-import IngredientRow from "../components/IngredientRow";
 import MenuIngredientRow from "../components/MenuIngredientRow";
 
 
@@ -36,8 +35,14 @@ export const MenuDishScreen = (props) => {
             </Card>
             <View style={styles.container}>
                 <Title style={styles.title}>{dishParams.dish_name}</Title>
-                <Text style={styles.subheading}>Цена :</Text>
-                <Text style={styles.text}>{dishParams.price} грн.</Text>
+                <View style={styles.row}>
+                    <Text style={styles.subheading}>Цена : </Text>
+                    <Text style={styles.text}>{dishParams.price} грн.</Text>
+                </View>
+                <View style={styles.row}>
+                    <Text style={styles.subheading}>Кол-во порций : </Text>
+                    <Text style={styles.text}>{dishParams.portion_quantity}</Text>
+                </View>
                 <Text style={styles.subheading}>Ингредиенты :</Text>
                 <DataTable style={styles.table}>
                     <FlatList
@@ -77,15 +82,20 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     subheading: {
-        paddingTop: 15,
+        paddingTop: 12,
         fontSize: 18,
         fontWeight: 'bold'
     },
     text: {
-        paddingTop: 10,
+        paddingTop: 14,
         fontSize: 16
     },
     tableLeft: {
         paddingLeft: 50
     },
+    row: {
+        height: 40,
+        alignItems: "center",
+        flexDirection: "row"
+    }
 })

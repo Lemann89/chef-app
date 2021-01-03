@@ -10,26 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="markup recipes and warehouse screens">
-      <change afterPath="$PROJECT_DIR$/app/components/Autocomplete.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/MenuDishCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/MenuIngredientRow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/navigators/HomeNavigator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/MenuDishScreen.jsx" afterDir="false" />
+    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="create menu functionality and etc..">
+      <change afterPath="$PROJECT_DIR$/assets/empty-menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chef-app-back/controllers/dishes.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/controllers/dishes.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chef-app-back/controllers/warehouse.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/controllers/warehouse.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chef-app-back/models/recipe.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/models/recipe.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chef-app-back/models/warehouse.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/models/warehouse.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chef-app-back/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/IngredientRow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/IngredientRow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/MenuDishCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/MenuDishCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigators/HomeNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/HomeNavigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigators/RecipesNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/RecipesNavigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigators/WarehouseNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/WarehouseNavigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/CartScreen.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/MenuDishScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MenuDishScreen.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/MenuFormScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MenuFormScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/OrderScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/OrderScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/ProductScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ProductScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/SuccessScreen.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/WarehouseScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/WarehouseScreen.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +130,10 @@
       <workItem from="1608935813957" duration="6006000" />
       <workItem from="1608992056453" duration="13325000" />
       <workItem from="1609017553563" duration="12112000" />
+      <workItem from="1609345522936" duration="8203000" />
+      <workItem from="1609359544601" duration="644000" />
+      <workItem from="1609511064600" duration="4074000" />
+      <workItem from="1609678629137" duration="16328000" />
     </task>
     <task id="LOCAL-00001" summary="create navigation and recipes screen">
       <created>1605836148048</created>
@@ -145,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606612638129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create menu functionality and etc..">
+      <created>1609345582578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609345582578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create navigation and recipes screen" />
     <MESSAGE value="markup recipes and warehouse screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="markup recipes and warehouse screens" />
+    <MESSAGE value="create menu functionality and etc.." />
+    <option name="LAST_COMMIT_MESSAGE" value="create menu functionality and etc.." />
   </component>
 </project>

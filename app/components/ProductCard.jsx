@@ -14,7 +14,7 @@ const ProductCard = (props) => {
                 <Card.Cover source={{uri: item.product?.imageURL}} style={styles.cardImage}/>
                 <Card.Content>
                     <Title style={styles.title}>{item.product?.name}</Title>
-                    <Title style={styles.count}>Кол-во: {item.quantity}</Title>
+                    <Title style={styles.count}>Кол-во: { Math.floor(item.quantity * 100) / 100} кг</Title>
                 </Card.Content>
             </Card>
         </TouchableRipple>

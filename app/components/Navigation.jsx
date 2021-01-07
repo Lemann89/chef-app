@@ -67,6 +67,7 @@ export const Navigation = () => {
                         tabBarIcon: ({color}) => (
                             <FontAwesome name="pie-chart" color={color} size={26}/>
                         ),
+                        unmountOnBlur: true
                     })}
                 />
             </Tab.Navigator>

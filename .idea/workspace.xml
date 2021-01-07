@@ -10,26 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="create menu functionality and etc..">
-      <change afterPath="$PROJECT_DIR$/assets/empty-menu.png" afterDir="false" />
+    <list default="true" id="9ea7bbab-2541-43b1-a583-29af95df0e43" name="Default Changelist" comment="mvp done!!!">
+      <change afterPath="$PROJECT_DIR$/../PornhubApi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chef-app-back/controllers/orderHistory.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/CookedDishChart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chef-app-back/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chef-app-back/controllers/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/controllers/products.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chef-app-back/controllers/warehouse.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/controllers/warehouse.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chef-app-back/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chef-app-back/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/MenuDishCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/MenuDishCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navigators/HomeNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/HomeNavigator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navigators/RecipesNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/RecipesNavigator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navigators/WarehouseNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigators/WarehouseNavigator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/CartScreen.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/HomeScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/MenuDishScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MenuDishScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/MenuFormScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MenuFormScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/OrderScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/OrderScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/ProductScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ProductScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/RecipeScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/SuccessScreen.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/WarehouseScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/WarehouseScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/AnalyticsScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/AnalyticsScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +127,8 @@
       <workItem from="1609345522936" duration="8203000" />
       <workItem from="1609359544601" duration="644000" />
       <workItem from="1609511064600" duration="4074000" />
-      <workItem from="1609678629137" duration="16328000" />
+      <workItem from="1609678629137" duration="17396000" />
+      <workItem from="1609970049898" duration="8579000" />
     </task>
     <task id="LOCAL-00001" summary="create navigation and recipes screen">
       <created>1605836148048</created>
@@ -156,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609345582578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mvp done!!!">
+      <created>1609698117878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609698117878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +180,7 @@
     <MESSAGE value="create navigation and recipes screen" />
     <MESSAGE value="markup recipes and warehouse screens" />
     <MESSAGE value="create menu functionality and etc.." />
-    <option name="LAST_COMMIT_MESSAGE" value="create menu functionality and etc.." />
+    <MESSAGE value="mvp done!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvp done!!!" />
   </component>
 </project>

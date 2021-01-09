@@ -9,7 +9,6 @@ import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import {WarehouseNavigator} from "../navigators/WarehouseNavigator";
 import {HomeNavigator} from "../navigators/HomeNavigator";
 
-
 const Tab = createBottomTabNavigator();
 
 export const Navigation = () => {
@@ -39,6 +38,7 @@ export const Navigation = () => {
                         tabBarIcon: ({color}) => (
                             <MaterialCommunityIcons name="book-search" color={color} size={26}/>
                         ),
+                        unmountOnBlur: true
                     })}
                 />
                 <Tab.Screen
@@ -61,7 +61,6 @@ export const Navigation = () => {
                 />
                 <Tab.Screen
                     name="AnalyticsScreen"
-                    showLabel="false"
                     component={AnalyticsScreen}
                     options={() => ({
                         tabBarIcon: ({color}) => (

@@ -10,7 +10,7 @@ const MenuDishCard = props => {
 
     const onDoneHandler = (menuId) => {
         axios.put(`${environment.BaseURL}/menu/${menuId}/status`).then(() => {
-            updateDishes()
+            updateDishes();
         });
     }
 

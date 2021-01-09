@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {ActivityIndicator, Text} from "react-native-paper";
-import {LineChart} from "react-native-chart-kit";
-import {Dimensions, FlatList, StyleSheet, View} from "react-native";
+import {ActivityIndicator, Colors, Text} from "react-native-paper";
+import {FlatList, StyleSheet} from "react-native";
 import axios from "axios";
 import environment from "../../environment";
 import CookedDishChart from "../components/CookedDishChart";
@@ -25,15 +24,18 @@ const AnalyticsScreen = () => {
     return (
         <VirtualizedView>
             <Text style={styles.title}>
-                Аналитика заказов блюд
+                Аналитика приготовленных блюд
             </Text>
-            {cookedMenuDishes.length ? (
-                <FlatList style={styles.container} data={['Борщ', 'Макароны', 'Гречка']}
+            {
+                cookedMenuDishes.length ? (
+                <FlatList style={styles.container}
+                          data={['Борщ', 'Макароны', 'Гречка']}
                           renderItem={({item}) => <CookedDishChart title={item}
                                      labels={getDishAttrValueByKey(item, 'date')}
                                      data={getDishAttrValueByKey(item, 'portion_quantity')}/>}
-                          keyExtractor={(item, index) => index.toString()}/>)
-                : (<ActivityIndicator />)
+                          keyExtractor={(item, index) => index.toString()}
+                />)
+                : (<ActivityIndicator style={styles.pt70} color={Colors.blue500} size='large'/>)
             }
         </VirtualizedView>
     );
@@ -42,8 +44,8 @@ const AnalyticsScreen = () => {
 
 const styles = StyleSheet.create({
     title: {
-        fontWeight: '600',
-        fontSize: 25,
+        fontWeight: '700',
+        fontSize: 22,
         marginLeft: 10,
         marginTop: 10
     },
@@ -51,6 +53,9 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
         paddingRight: 10
     },
+    pt70: {
+        paddingTop: 70
+    }
 })
 
 export default AnalyticsScreen;
